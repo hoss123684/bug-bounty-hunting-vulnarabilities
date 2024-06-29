@@ -27,9 +27,7 @@ Steps to Solve the Challenge
 
 Let's analyze the requests and responses:
     ![Screenshot 2024-06-29 224454](https://github.com/hoss123684/bug-bounty-hunting-vulnarabilities/assets/80020673/41314462-72e4-4361-8799-d7bcbed0db59)
-
 I see that the username is reflected back as a cookie in response
-        ![Screenshot 2024-06-29 224454](https://github.com/hoss123684/bug-bounty-hunting-vulnarabilities/assets/80020673/a1ee9f77-ff46-459c-8b79-d01425ce2848)
 
 Redirected to login2(Get) with the cookie, it ask you to enter your MFA code that you recieved in your email
         ![Screenshot 2024-06-29 224541](https://github.com/hoss123684/bug-bounty-hunting-vulnarabilities/assets/80020673/0f0e263e-3c74-4a75-815a-a587b0272490)
