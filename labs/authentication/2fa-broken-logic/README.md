@@ -22,6 +22,8 @@ Steps to Solve the Challenge
           ![Screenshot 2024-06-29 224351](https://github.com/hoss123684/bug-bounty-hunting-vulnarabilities/assets/80020673/d9ba76a5-2b25-4214-a8ae-6145e00b6d3a)
 
   - Submit the 2FA code to log in.
+  - ![Screenshot 2024-06-30 004601](https://github.com/hoss123684/bug-bounty-hunting-vulnarabilities/assets/80020673/a49b5b07-ecb7-4f56-996b-dc494c3ca955)
+
 
 Let's analyze the requests and responses:
     ![Screenshot 2024-06-29 224454](https://github.com/hoss123684/bug-bounty-hunting-vulnarabilities/assets/80020673/41314462-72e4-4361-8799-d7bcbed0db59)
