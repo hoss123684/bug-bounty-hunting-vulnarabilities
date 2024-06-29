@@ -39,3 +39,4 @@ I see that the request include the cookie in the POST request, the next step i w
 somthing interesting happens here ,after sending the GET request to /login2 with cookie = carlos beyond to cookie = wiener :
 ![Screenshot 2024-06-29 144613](https://github.com/hoss123684/bug-bounty-hunting-vulnarabilities/assets/80020673/c59a8893-0125-43a4-96e4-82acb14cb6b6)
 
+A 2FA code was triggered for Carlos, even though no password was provided for his account!
