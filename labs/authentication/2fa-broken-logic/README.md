@@ -21,7 +21,7 @@ Steps to Solve the Challenge
   - Retrieve the 2FA code sent to your email by clicking the "Email client" button.
           ![Screenshot 2024-06-29 224351](https://github.com/hoss123684/bug-bounty-hunting-vulnarabilities/assets/80020673/d9ba76a5-2b25-4214-a8ae-6145e00b6d3a)
 
-  - Submit the 2FA code to log in.
+  - Submit the 2FA code to log in, you logged in to your account
   - ![Screenshot 2024-06-30 004601](https://github.com/hoss123684/bug-bounty-hunting-vulnarabilities/assets/80020673/a49b5b07-ecb7-4f56-996b-dc494c3ca955)
 
 
@@ -29,6 +29,13 @@ Let's analyze the requests and responses:
     ![Screenshot 2024-06-29 224454](https://github.com/hoss123684/bug-bounty-hunting-vulnarabilities/assets/80020673/41314462-72e4-4361-8799-d7bcbed0db59)
 I see that the username is reflected back as a cookie in response
 
-Redirected to login2(Get) with the cookie, it ask you to enter your MFA code that you recieved in your email
+Redirected to login2(Get) with the cookie, it ask you to enter your mfa-code that you recieved in your email
         ![Screenshot 2024-06-29 224541](https://github.com/hoss123684/bug-bounty-hunting-vulnarabilities/assets/80020673/0f0e263e-3c74-4a75-815a-a587b0272490)
   
+Now let's intercept the POST request of sending your mfa-code:
+![Screenshot 2024-06-29 224614](https://github.com/hoss123684/bug-bounty-hunting-vulnarabilities/assets/80020673/1c2cd62a-bf99-453b-87d8-7bb30a0fd639)
+
+I see that the request include the cookie in the POST request, the next step i will change the cookie in every requst i sent.
+somthing interesting happens here ,after sending the GET request to /login2 with cookie = carlos beyond to cookie = wiener :
+![Screenshot 2024-06-29 144613](https://github.com/hoss123684/bug-bounty-hunting-vulnarabilities/assets/80020673/c59a8893-0125-43a4-96e4-82acb14cb6b6)
+
