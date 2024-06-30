@@ -33,3 +33,7 @@
 - Ensure that MFA implementation includes brute-force protection mechanisms, such as rate limiting and account lockout policies, to prevent automated attacks.
 
 By implementing these mitigations, you can ensure that the authentication process is secure and resistant to attacks exploiting the lack of explicit user identity checks and cookie manipulation.
+
+## Resources
+- *The Web Application Hacker's Handbook*
+- *PortSwigger Academy*
