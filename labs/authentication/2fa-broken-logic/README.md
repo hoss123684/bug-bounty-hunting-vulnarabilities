@@ -36,10 +36,9 @@ In this lab, we need to bypass the two-factor authentication (2FA) mechanism to 
    - Change the cookie in every request you send.
    - After sending the GET request to `/login2` with `cookie=carlos`, change the cookie to `cookie=wiener`.
      ![Screenshot 2024-06-29 144613](https://github.com/hoss123684/bug-bounty-hunting-vulnarabilities/assets/80020673/c59a8893-0125-43a4-96e4-82acb14cb6b6)
-     -A 2FA code was triggered for Carlos, even though no password was provided for his account.
+     - A 2FA code was triggered for Carlos, even though no password was provided for his account.
 
 4. **Brute Force the MFA Code**:
-   - A 2FA code was triggered for Carlos, even though no password was provided for his account.
    - Use a brute force attack on submitting the MFA code.
      ![Screenshot 2024-06-29 150019](https://github.com/hoss123684/bug-bounty-hunting-vulnarabilities/assets/80020673/e745ae77-9c8e-416f-ad78-4a550afb9c1b)
    - **Attack type**: Sniper
