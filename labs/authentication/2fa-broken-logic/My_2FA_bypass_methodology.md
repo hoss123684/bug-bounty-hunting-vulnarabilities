@@ -1,4 +1,4 @@
-# Methodology to Hack 2FA Authentication
+# Methodology to Bypass 2FA Authentication
 
 ## Hack Steps:
 
