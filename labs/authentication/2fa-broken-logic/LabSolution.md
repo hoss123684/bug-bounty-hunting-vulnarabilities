@@ -2,8 +2,6 @@
 
 ![Screenshot 2024-06-29 221010](https://github.com/hoss123684/bug-bounty-hunting-vulnarabilities/assets/80020673/5ddf30e4-af52-4163-8d82-b3e539b91df3)
 
-This write-up for the lab "2FA Broken Logic" is part of my walkthrough series for PortSwigger's Web Security Academy.
-**Learning path**: Server-side topics → Authentication
 
 **Lab-Link**: [PortSwigger Lab](https://portswigger.net/web-security/authentication/multi-factor/lab-2fa-broken-logic)
 
