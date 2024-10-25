@@ -55,3 +55,9 @@
   - **Reliability**: Lost packets are retransmitted.
   - **Error Checking**: Ensures data accuracy.
   - **Flow Control**: Manages data transmission speed.
+## What’s UDP?
+UDP (User Datagram Protocol) is a connectionless protocol, prioritizing speed over reliability for real-time applications.
+### Key UDP Features
+- No Reliability: Packets can be lost or arrive out of order.
+- Low Latency: Faster than TCP; ideal for real-time applications.
+- No Congestion Control: Optimized for speed, not accuracy.
