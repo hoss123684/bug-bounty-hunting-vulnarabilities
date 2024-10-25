@@ -61,3 +61,5 @@ UDP (User Datagram Protocol) is a connectionless protocol, prioritizing speed ov
 - No Reliability: Packets can be lost or arrive out of order.
 - Low Latency: Faster than TCP; ideal for real-time applications.
 - No Congestion Control: Optimized for speed, not accuracy.
+
+**Lab-Link**: [What Happens When I Open google.com? in details](https://medium.com/@karchalmohammed/understanding-what-happens-when-you-enter-google-com-in-your-browser-0319a1945390)
